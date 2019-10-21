@@ -1,0 +1,12 @@
+.action-button {
+    height: 48px;
+    width: 160px;
+    margin: 0;
+    background-color: #3040c4;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
