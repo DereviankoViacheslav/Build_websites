@@ -1,0 +1,21 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F5F7;
+    padding: 77px 130px;
+}
+
+.article {
+    width: 555px;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.article__title {
+    margin: 0;
+    font-weight: 700;
+}
+
+.article__text {
+    margin: 6px 0 0;
+}
