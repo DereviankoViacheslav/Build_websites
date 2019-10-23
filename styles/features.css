@@ -3,6 +3,12 @@
     position: relative;
 }
 
+@media screen and (max-width: 399px) {
+    .features {
+        display: none;
+    }
+}
+
 .features__content {
     display: flex;
     width: 1140px;
