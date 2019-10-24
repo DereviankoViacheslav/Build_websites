@@ -697,6 +697,13 @@
   line-height: 34px;
 }
 @media screen and (min-width: 1400px) {
+  .order__text {
+    margin-top: 12px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+@media screen and (min-width: 1400px) {
   .order__form {
     display: flex;
     justify-content: space-between;
@@ -756,12 +763,11 @@ body {
 .page {
   width: 100%;
 }
-
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 1400px) {
   .page {
     display: flex;
     height: 100vh;
-    width: 1400px;
+    max-width: 1400px;
     margin: 0 auto;
     flex-direction: column;
     justify-content: space-between;
