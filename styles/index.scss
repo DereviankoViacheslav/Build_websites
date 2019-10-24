@@ -1,3 +1,16 @@
+@import 'breakpoints.scss';
+@import 'variables.scss';
+@import 'common.scss';
+@import 'about.scss';
+@import 'customers.scss';
+@import 'features.scss';
+@import 'footer.scss';
+@import 'header.scss';
+@import 'headline.scss';
+@import 'tips.scss';
+@import 'order.scss';
+
+
 * {
     box-sizing: border-box;
 }
@@ -7,7 +20,7 @@ body {
     height: 100%;
     font-size: 16px;
     font-family: "Work Sans", sans-serif;
-    color: #2B292D;
+    color: $color-dark;
 }
 
 .page {

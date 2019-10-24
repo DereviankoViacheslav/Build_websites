@@ -8,15 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/header.css" />
-    <link rel="stylesheet" href="./styles/footer.css" />
-    <link rel="stylesheet" href="./styles/common.css" />
-    <link rel="stylesheet" href="./styles/headline.css" />
-    <link rel="stylesheet" href="./styles/about.css" />
-    <link rel="stylesheet" href="./styles/customers.css" />
-    <link rel="stylesheet" href="./styles/features.css" />
-    <link rel="stylesheet" href="./styles/tips.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
@@ -42,8 +34,8 @@
                     </a>
                 </nav>
                 <button class="action-button header-button">Get Started</button>
-                <button class="header__manu-button">
-                    <span class="header__manu-icon"></span>
+                <button class="header__menu-button">
+                    <span class="header__menu-icon"></span>
                 </button>
             </header>
 
@@ -58,7 +50,7 @@
                     </p>
                     <div class="headline__actions">
                         <button class="action-button headline__action-btn">Get Started</button>
-                        <button class="headline__learn-motr-btn headline__action-btn">Learn More</button>
+                        <button class="headline__learn-more-btn headline__action-btn">Learn More</button>
                     </div>
                 </div>
                 <img class="headline__banner" src="./img/ouch.png" alt="Headline Banner">
@@ -140,7 +132,7 @@
                 <span class="tip__subtitle">Support</span>
                 <h3 class="tip__title">The best customer experiences</h3>
                 <p class="tip__description">
-                        A beautifully simple system for tracking, prioritizing, and solving customer support tickets.
+                    A beautifully simple system for tracking, prioritizing, and solving customer support tickets.
                 </p>
                 <figure class="tip__decoration">
                     <img class="tip__image" src="img/tip-support.png" alt="Support Picture">
@@ -180,6 +172,30 @@
             <img class="features__banner" src="img/invision-screen.png" alt="Invision Screen">
         </section>
 
+        <!-- Order -->
+
+        <section class="order">
+            <img class="order__ilustration" src="./img/ilustration-window.png" alt="Window">
+            <div class="order__details">
+                <h3 class="order__title hide_desktop">Built for busy small teams</h3>
+                <h3 class="order__title hide_mobile">Start your free trial.</h3>
+                <p class="order__text hide_desktop">
+                    Three products that can be used independently or combined together for your company’s needs.
+                </p>
+                <p class="order__text hide_mobile">
+                    Get notified about company updates, news and blog posts. We hate spam.
+                </p>
+                <form class="order__form">
+                    <input class="order__email" type="email" placeholder="Enter your email">
+                    <button class="order__button action-button">Get Started</button>
+                </form>
+                <p class="order__terms">
+                    Free 14-day trial · Easy setup · Cancel any time. Check out
+                    <a class="order__terms-link" href="#">Terms of Use</a>.
+                </p>
+            </div>
+        </section>
+
         <!-- Footer -->
 
         <footer class="footer">
@@ -190,6 +206,13 @@
                         <div class="logo__text">
                             <div class="logo__name">Foundation</div>
                             <div class="logo__description">Startup landing template</div>
+                        </div>
+                    </div>
+                    <div class="logo-vertical">
+                        <img class="logo-vertical__img" src="./img/icon-dark.png" alt="logo" />
+                        <div class="logo-vertical__text">
+                            <div class="logo-vertical__name">Foundation</div>
+                            <div class="logo-vertical__description">Startup landing template</div>
                         </div>
                     </div>
                     <p class="footer-description">
@@ -203,6 +226,7 @@
                                 alt="Google Play Link"></a>
                     </div>
                 </div>
+                <div class="footer-line hide_desktop"></div>
                 <div class="additional-navigation">
                     <div class="additional-navigation__column nav-links">
                         <h3 class="nav-links__title">Product</h3>
@@ -214,7 +238,7 @@
                             <li class="nav-links__item"><a href="#">Virtual Inbox</a></li>
                         </ul>
                     </div>
-                    <div class="nav-links">
+                    <div class="additional-navigation__column nav-links">
                         <h3 class="nav-links__title">Company</h3>
                         <ul class="nav-links__list">
                             <li class="nav-links__item"><a href="#">About Foundation</a></li>
@@ -225,7 +249,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-line"></div>
+            <div class="footer-line hide_mobile"></div>
             <div class="footer-links">
                 <nav class="terms">
                     <a class="terms__items" href="#">Terms</a>

@@ -10,3 +10,17 @@
     border-radius: 2px;
     cursor: pointer;
 }
+
+.hide_desktop {
+
+    @include for-large-up {
+        display: none;
+    }
+}
+
+.hide_mobile {
+
+    @include for-large-down {
+        display: none;
+    }
+}
