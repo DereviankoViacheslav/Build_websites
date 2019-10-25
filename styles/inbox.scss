@@ -45,6 +45,7 @@
     &__details {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         margin-top: 32px;
         
         @include for-large-up {
