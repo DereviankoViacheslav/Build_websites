@@ -1,0 +1,159 @@
+.inbox {
+    background-color: $color-yellow-light;
+
+    &__wrapper {
+        padding: 50px 15px;
+
+        @include for-large-up {
+            display: flex;
+            justify-content: flex-end;
+            padding: 115px 0 101px;
+        }
+
+    }
+
+    &__decoration {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+
+        @include for-large-up {
+            flex-direction: column;
+            align-items: center;
+            margin-right: 164px;
+            margin-top: 27px;
+        }
+
+    }
+
+    &__image {
+        max-width: 290px;
+
+        @include for-large-up {
+            max-width: 425px;
+        }
+
+    }
+
+    &__image-caption {
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 22px;
+        color: $text-color-light-grey;
+    }
+
+    &__details {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 32px;
+        
+        @include for-large-up {
+            margin: 0;
+            max-width: 519px;
+        }
+        
+    }
+    
+    &__details-wrapper {
+        max-width: 519px;
+        
+        @include for-large-up {
+            padding: 0 29px;
+        }
+        
+    }
+    
+    &__subtitle {
+        font-size: 22px;
+        line-height: 34px;
+        font-weight: 700;
+        color: $text-color-orange;
+    }
+    
+    &__title {
+        margin: 0;
+        margin-top: 17px;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -0.357143px;
+        font-weight: 700;
+        
+        @include for-large-up {
+            margin-top: 24px;
+            font-size: 56px;
+            line-height: 56px;
+            letter-spacing: -0.5px;
+        }
+        
+    }
+    
+    &__description {
+        margin-top: 18px;
+        font-size: 24px;
+        line-height: 34px;
+        
+        @include for-large-up {
+            margin: 30px 0 0;
+        }
+        
+    }
+    
+    &__quotes {
+        max-width: 519px;
+        margin-top: 30px;
+
+        @include for-large-up {
+            margin-top: 44px;
+        }
+
+    }
+
+}
+
+.quote {
+    padding: 30px 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-bottom: 4px solid #0185D0;
+
+    @include for-large-up {
+        padding: 30px 30px 28px;
+    }
+
+    &__text {
+        margin: 0;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    &__author-card {
+        margin-top: 26px;
+    }
+
+}
+
+.author-card {
+    display: flex;
+    align-items: flex-start;
+
+    &__avatar {
+        margin-right: 11px;
+    }
+
+    &__details {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    &__name {
+        margin: 0;
+        font-weight: 700;
+    }
+
+    &__position {
+        margin: 0;
+        line-height: 22px;
+        color: $text-color-light-grey;
+    }
+
+}

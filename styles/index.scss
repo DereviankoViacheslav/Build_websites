@@ -8,6 +8,8 @@
 @import 'header.scss';
 @import 'headline.scss';
 @import 'tips.scss';
+@import 'inbox.scss';
+@import 'communication.scss';
 @import 'order.scss';
 
 
@@ -35,4 +37,9 @@ body {
         justify-content: space-between;
     }
 
+}
+
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
 }
