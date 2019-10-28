@@ -641,7 +641,7 @@
   margin-bottom: 40px;
 }
 .tip__image {
-  margin-top: 29px;
+  margin-top: 24px;
   max-width: 100%;
 }
 .tip__image-caption {
@@ -696,7 +696,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 32px;
+  margin-top: 36px;
 }
 @media screen and (min-width: 1400px) {
   .inbox__details {
@@ -746,7 +746,7 @@
 }
 .inbox__quotes {
   max-width: 519px;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 @media screen and (min-width: 1400px) {
   .inbox__quotes {
