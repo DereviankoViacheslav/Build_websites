@@ -65,16 +65,7 @@
     }
 
     &__learn-more-btn {
-        height: 48px;
-        width: 158px;
         margin-top: 15px;
-        color: #3040c4;
-        background-color: white;
-        font-size: 18px;
-        font-weight: bold;
-        border: none;
-        border-radius: 2px;
-        cursor: pointer;
 
         @include for-large-up {
             margin-left: 10px;

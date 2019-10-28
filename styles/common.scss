@@ -1,14 +1,23 @@
-.action-button {
+.btn {
     height: 48px;
     width: 160px;
+    padding: 0;
     margin: 0;
-    background-color: #3040c4;
-    color: white;
     font-size: 18px;
     font-weight: bold;
     border: none;
     border-radius: 2px;
     cursor: pointer;
+}
+
+.action-btn {
+    background-color: #3040c4;
+    color: white;
+}
+
+.learn-more-btn {
+    color: #3040c4;
+    background-color: white;
 }
 
 .hide_desktop {

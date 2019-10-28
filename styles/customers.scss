@@ -12,6 +12,13 @@
         padding: 30px 0 106px;
     }
 
+    &_bottom {
+
+        @include for-large-up {
+            padding-bottom: 76px;
+        }
+    }
+
     &__row {
         display: flex;
 
