@@ -46,7 +46,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-top: 32px;
+        margin-top: 36px;
         
         @include for-large-up {
             margin: 0;
@@ -101,7 +101,7 @@
     
     &__quotes {
         max-width: 519px;
-        margin-top: 30px;
+        margin-top: 15px;
 
         @include for-large-up {
             margin-top: 44px;
