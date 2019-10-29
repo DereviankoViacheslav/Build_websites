@@ -45,6 +45,7 @@
         line-height: 13px;
 
         @include for-large-up {
+            max-width: 247px;
             margin-top: 28px;
         }
 
@@ -54,7 +55,7 @@
         margin-top: 24px;
 
         @include for-large-up {
-            margin-top: 110px;
+            margin-top: 105px;
         }
 
     }
@@ -77,6 +78,7 @@
 
         @include for-large-up {
             height: 81px;
+            margin-top: 20px;
         }
 
         &:hover {
