@@ -771,7 +771,7 @@
   line-height: 28px;
 }
 .quote__author-card {
-  margin-top: 26px;
+  margin-top: 20px;
 }
 
 .author-card {
@@ -787,6 +787,7 @@
 }
 .author-card__name {
   margin: 0;
+  font-size: 16px;
   font-weight: 700;
 }
 .author-card__position {
@@ -889,7 +890,7 @@
   }
 }
 .communication__image-caption {
-  margin-top: 17px;
+  margin-top: 22px;
   font-size: 14px;
   line-height: 22px;
   text-align: center;
@@ -924,9 +925,10 @@
 }
 .featires__text {
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 .featires__link {
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -995,12 +997,14 @@
 .audience__button {
   width: 100%;
   margin-top: 12px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media screen and (min-width: 1400px) {
   .audience__button {
     width: 160px;
   }
+}
+.audience__button-more {
+  color: #000;
 }
 .audience__categories {
   margin-top: 25px;
@@ -1048,7 +1052,7 @@
 }
 .categories__title {
   margin: 0;
-  margin-top: 22px;
+  margin-top: 18px;
   font-size: 22px;
   line-height: 28px;
   font-weight: 700;
@@ -1099,7 +1103,6 @@
   margin: 0;
   margin-top: 32px;
   font-size: 16px;
-  line-height: 24px;
   font-weight: 700;
   text-align: left;
 }
@@ -1136,7 +1139,7 @@
   background: #3142C5;
 }
 .feedback__nav-slide .dots:nth-child(2) {
-  margin: 0 19.5px;
+  margin: 0 22px;
 }
 .feedback__img {
   margin: 40px auto 0;
