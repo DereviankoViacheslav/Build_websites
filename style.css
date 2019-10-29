@@ -797,24 +797,24 @@
   color: #2b292d99;
 }
 
-.communication {
+.b-communication {
   padding: 50px 15px;
 }
 @media screen and (min-width: 1400px) {
-  .communication {
+  .b-communication {
     padding: 110px 0;
   }
 }
-.communication__wrapper {
+.b-communication__wrapper {
   padding-bottom: 40px;
   position: relative;
 }
 @media screen and (min-width: 1400px) {
-  .communication__wrapper {
+  .b-communication__wrapper {
     display: flex;
   }
 }
-.communication__wrapper::after {
+.b-communication__wrapper::after {
   content: "";
   position: absolute;
   left: 0;
@@ -826,19 +826,19 @@
   background-color: #000;
 }
 @media screen and (min-width: 1400px) {
-  .communication__details {
+  .b-communication__details {
     max-width: 460px;
     margin-right: 193px;
     margin-top: 13px;
   }
 }
-.communication__subtitle {
+.b-communication__subtitle {
   font-size: 22px;
   line-height: 34px;
   color: #0189D1;
   font-weight: 700;
 }
-.communication__title {
+.b-communication__title {
   margin: 0;
   margin-top: 17px;
   font-size: 40px;
@@ -847,57 +847,57 @@
   font-weight: 700;
 }
 @media screen and (min-width: 1400px) {
-  .communication__title {
+  .b-communication__title {
     margin-top: 24px;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
   }
 }
-.communication__description {
+.b-communication__description {
   margin: 0;
   margin-top: 18px;
   font-size: 24px;
   line-height: 34px;
 }
 @media screen and (min-width: 1400px) {
-  .communication__description {
+  .b-communication__description {
     margin-top: 30px;
   }
 }
-.communication__button {
+.b-communication__button {
   margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
-  .communication__button {
+  .b-communication__button {
     margin-top: 39px;
   }
 }
-.communication__decoration {
+.b-communication__decoration {
   margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.communication__image {
+.b-communication__image {
   max-width: 290px;
   margin-top: 40px;
 }
 @media screen and (min-width: 1400px) {
-  .communication__image {
+  .b-communication__image {
     max-width: 425px;
     margin: 0;
   }
 }
-.communication__image-caption {
+.b-communication__image-caption {
   margin-top: 22px;
   font-size: 14px;
   line-height: 22px;
   text-align: center;
   color: #2b292d99;
 }
-.communication__decor-line {
+.b-communication__decor-line {
   width: 150px;
   margin: 0;
   opacity: 0.1;
@@ -916,6 +916,7 @@
 .featires__item {
   max-width: 360px;
   margin-top: 33px;
+  margin-bottom: 5px;
   font-size: 18px;
   line-height: 26px;
 }
@@ -988,7 +989,7 @@
 }
 @media screen and (min-width: 1400px) {
   .audience__buttons-wrapper {
-    min-width: 330px;
+    min-width: 340px;
     display: flex;
     justify-content: space-around;
     margin-top: 22px;
@@ -1108,6 +1109,7 @@
   text-align: left;
 }
 .feedback__author-position {
+  line-height: 24px;
   color: #2b292d99;
 }
 .feedback__nav-slide {
@@ -1140,10 +1142,10 @@
   background: #3142C5;
 }
 .feedback__nav-slide .dots:nth-child(2) {
-  margin: 0 19px;
+  margin: 0 15px;
 }
 .feedback__img {
-  margin: 40px auto 0;
+  margin: 35px auto 0;
   display: block;
 }
 @media screen and (min-width: 1400px) {
@@ -1163,7 +1165,9 @@
 }
 @media screen and (min-width: 1400px) {
   .hiring {
-    padding: 106px 0 110px;
+    max-width: 750px;
+    margin: 106px auto 110px;
+    padding: 0;
   }
 }
 .hiring__title {

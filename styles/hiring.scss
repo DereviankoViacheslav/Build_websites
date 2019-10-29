@@ -5,7 +5,9 @@
     padding: 50px 15px;
 
     @include for-large-up {
-        padding: 106px 0 110px;
+        max-width: 750px;
+        margin: 106px auto 110px;
+        padding: 0;
     }
 
     &__title {

@@ -51,6 +51,7 @@
     }
     
     &__author-position {
+        line-height: 24px;
         color: $text-color-light-grey;
     }
 
@@ -87,13 +88,13 @@
         }
 
         .dots:nth-child(2) {
-            margin: 0 19px;
+            margin: 0 15px;
         }
 
     }
 
     &__img {
-        margin: 40px auto 0;
+        margin: 35px auto 0;
         display: block;
 
         @include for-large-up {
