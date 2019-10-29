@@ -3,7 +3,10 @@
     position: relative;
 
     @include for-large-down {
-        display: none;
+        // display: none;
+        visibility: hidden;
+        height: 0;
+        width: 0;
     }
 
     &__content {

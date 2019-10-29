@@ -129,7 +129,9 @@
 }
 @media screen and (max-width: 1399px) {
   .features {
-    display: none;
+    visibility: hidden;
+    height: 0;
+    width: 0;
   }
 }
 .features__content {
@@ -605,7 +607,9 @@
 }
 @media screen and (min-width: 1400px) {
   .tips {
-    display: none;
+    visibility: hidden;
+    height: 0;
+    width: 0;
   }
 }
 
@@ -641,7 +645,7 @@
   margin-bottom: 40px;
 }
 .tip__image {
-  margin-top: 24px;
+  margin-top: 20px;
   max-width: 100%;
 }
 .tip__image-caption {
