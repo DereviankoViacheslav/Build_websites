@@ -127,13 +127,6 @@
   display: flex;
   position: relative;
 }
-@media screen and (max-width: 1399px) {
-  .features {
-    visibility: hidden;
-    height: 0;
-    width: 0;
-  }
-}
 .features__content {
   display: flex;
   width: 1140px;
@@ -605,14 +598,6 @@
 .tips {
   margin-top: 8px;
 }
-@media screen and (min-width: 1400px) {
-  .tips {
-    visibility: hidden;
-    height: 0;
-    width: 0;
-  }
-}
-
 .tip {
   padding: 40px 15px 0;
   border-bottom: 1px solid #e3e3e3;
