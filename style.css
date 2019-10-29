@@ -735,6 +735,7 @@
   }
 }
 .inbox__description {
+  margin: 0;
   margin-top: 18px;
   font-size: 24px;
   line-height: 34px;
@@ -746,7 +747,7 @@
 }
 .inbox__quotes {
   max-width: 519px;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
   .inbox__quotes {
@@ -771,7 +772,7 @@
   line-height: 28px;
 }
 .quote__author-card {
-  margin-top: 20px;
+  margin-top: 26px;
 }
 
 .author-card {
@@ -925,7 +926,6 @@
 }
 .featires__text {
   margin: 0;
-  margin-bottom: 8px;
 }
 .featires__link {
   font-size: 16px;
@@ -1103,6 +1103,7 @@
   margin: 0;
   margin-top: 32px;
   font-size: 16px;
+  line-height: 24px;
   font-weight: 700;
   text-align: left;
 }
@@ -1139,7 +1140,7 @@
   background: #3142C5;
 }
 .feedback__nav-slide .dots:nth-child(2) {
-  margin: 0 22px;
+  margin: 0 19px;
 }
 .feedback__img {
   margin: 40px auto 0;
