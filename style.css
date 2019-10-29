@@ -1221,7 +1221,7 @@
 }
 @media screen and (min-width: 1400px) {
   .hiring__jobs {
-    margin-top: 105px;
+    margin-top: 95px;
   }
 }
 
@@ -1241,7 +1241,7 @@
 @media screen and (min-width: 1400px) {
   .jobs__vacancy {
     height: 81px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 }
 .jobs__vacancy:hover {
@@ -1276,7 +1276,6 @@
 @media screen and (min-width: 1400px) {
   .jobs__vacancy-description {
     min-width: 232px;
-    font-size: 18px;
     line-height: 24px;
   }
 }
