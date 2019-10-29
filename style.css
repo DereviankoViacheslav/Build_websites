@@ -803,6 +803,7 @@
 }
 
 .communication {
+  width: 100%;
   max-width: 1140px;
   padding: 50px 15px;
 }
