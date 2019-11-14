@@ -2,10 +2,15 @@
     width: 100%;
     max-width: 1140px;
     padding: 50px 15px;
-    
+
     @include for-large-up {
         margin: 110px auto;
         padding: 0;
+    }
+
+    &_stories {
+        margin-top: 81px;
+        margin-bottom: 0;
     }
 
     &__details-wrapper {
@@ -45,6 +50,11 @@
         line-height: 34px;
         color: $text-color-light-blue;
         font-weight: 700;
+    }
+
+    &__subtitle_stories {
+        color: #807F81;
+        opacity: 0.6;
     }
 
     &__title {
@@ -127,7 +137,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+
     @include for-large-up {
         justify-content: space-between;
     }
@@ -138,7 +148,7 @@
         margin-bottom: 5px;
         font-size: 18px;
         line-height: 26px;
-        
+
         @include for-large-up {
             margin-top: 41px;
         }
