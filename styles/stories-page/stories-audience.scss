@@ -1,0 +1,62 @@
+.stories-audience {
+    margin-top: 87px;
+    margin-bottom: 114px;
+    text-align: center;
+    color: $color-dark;
+
+    &__title {
+        max-width: 555px;
+        margin: 0 auto;
+        line-height: 56px;
+        font-size: 56px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+    }
+
+    &__description {
+        max-width: 555px;
+        margin: 30px auto 0;
+        line-height: 34px;
+        font-size: 24px;
+    }
+
+    &__services {}
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1140px;
+    margin: 80px auto 0;
+
+    &__item {
+        max-width: 360px;
+        text-align: left;
+        line-height: 26px;
+
+        &:nth-child(n + 4) {
+            margin-top: 78px;
+        }
+    }
+
+    &__item-icon {
+        display: block;
+    }
+
+    &__item-title {
+        margin: 0;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    &__item-description {
+        margin: 5px 0;
+        font-size: 19px;
+    }
+
+    &__item-link {
+        font-weight: 700;
+    }
+}
