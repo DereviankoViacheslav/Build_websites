@@ -166,6 +166,7 @@ body {
   line-height: 25px;
   color: #2b292d;
   text-decoration: none;
+  cursor: pointer;
 }
 .navigation__item:last-child {
   margin-right: 0;
