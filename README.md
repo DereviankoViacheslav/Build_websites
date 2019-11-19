@@ -2,6 +2,7 @@
 [Foundation](https://dereviankoviacheslav.github.io/foundation_website)
 # Webpage Foundation
 > Page **Home** supports mobile and desktop versions
+
 > Page **Stories** supports desktop version only
 > 
 The tech stack is:
