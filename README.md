@@ -1,9 +1,9 @@
 ![Foundation](https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png)
 [Foundation](https://dereviankoviacheslav.github.io/foundation-website/)
 # Webpage Foundation
-> Page **Home** supports mobile (up-to-320) and desktop (up-to-1400) versions
+> Page **Home** supports mobile (up-to-320) and desktop (up-to-1360) versions
 
-> Page **Stories** supports desktop (up-to-1400) version only
+> Page **Stories** supports desktop (up-to-1360) version only
 > 
 The tech stack is:
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
